@@ -1,6 +1,7 @@
 EECS4312 Winter26:Lab3
 
 # Title: FROM ELICITATION TO CONSTRAINTS, INVARIANTS, AND TESTS
+# Muhammad Ibrahim (218849240)
 
 # Medication Dispensing System Documentation
 

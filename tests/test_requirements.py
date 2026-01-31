@@ -9,7 +9,7 @@ class TestDispensingSubsystem(unittest.TestCase):
 
     def test_valid_event_passes_invariant(self):
         existing = []
-        e = DispenseEvent("p1", "medA", 10, 5)  # total = 50 <= 200
+        e = DispenseEvent("p1", "medA", 10, 5)  # total = 50 < 200
         self.assertTrue(DispenseEvent.invariant_holds(existing, e))
 
     def test_constructor_rejects_invalid_dose(self):
